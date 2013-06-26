@@ -24,8 +24,16 @@
   </head>
 
   <body>
+
+      <div id="fb-root"></div>
+      <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "http://connect.facebook.net/de_DE/all.js#xfbml=1&appId=170059929739141";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
   
-      <!-- Main hero unit for a primary marketing message or call to action -->
       <div class="hero-unit">
         <h1>PRISM</h1>
         <h2>All your data, in one place</h2>
@@ -34,7 +42,6 @@
         </p>
       </div>
       <div class="details">
-      <!-- Example row of columns -->
         <div class="row-fluid">
           <div class="span3" id="free">
             <h2>Free</h2>
@@ -105,6 +112,12 @@
         <img src="img/eye.png" />
       </a>
       <p>
+        <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://prism.andrevv.com" data-text="PRISM cloud storage – All your data, in one place" data-via="andrevvm">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+<span class="fb-like" data-href="http://prism.andrevv.com/" data-send="false" data-layout="button_count" data-width="90" data-show-faces="false"></span>
+      </p>
+      <p>
         <em>
           <span class="p">P</span>
           <span class="r">R</span>
@@ -116,9 +129,6 @@
       </p>
     </footer>
 
-        <!-- Le javascript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
