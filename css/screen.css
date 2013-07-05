@@ -143,7 +143,7 @@ a.button:active {
   display: block;
   padding-top: 30px;
   padding-bottom: 50px;
-  background: #eee;
+  background: #f6f6f6;
 }
 
 .press img {
@@ -151,7 +151,7 @@ a.button:active {
   margin: 0 3% 30px;
   width: 17%;
   min-width: 200px;
-  opacity: 0.4;
+  opacity: 0.6;
 }
 
 .press a:hover {
@@ -159,11 +159,11 @@ a.button:active {
 }
 
 .press img:hover {
-  opacity: 0.6;
+  opacity: 0.8;
 }
 
 .press img:active {
-  opacity: 0.7;
+  opacity: 0.9;
 }
 
 .press img:first-child {
