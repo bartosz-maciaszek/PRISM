@@ -236,6 +236,12 @@ footer a:hover {
   color: #8F00FF;
 }
 
+@media (max-width: 1200px) {
+  .details h2 {
+    font-size: 30px;
+  }
+}
+
 @media (max-width: 767px) {
   .row-fluid .span3 {
     width: 100%;
@@ -250,4 +256,3 @@ footer a:hover {
     font-size: 20px;
   }
 }
-
